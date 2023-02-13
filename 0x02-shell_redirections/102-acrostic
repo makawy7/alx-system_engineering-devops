@@ -1,3 +1,2 @@
 #!/bin/bash
-cut c1-1 | tr --delete '\n'
-echo ""
+cut -c1-1 | tr --delete '\n'
