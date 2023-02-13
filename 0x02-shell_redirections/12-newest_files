@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 -p --sort=time | grep -v /
+ls -1 -p --sort=time | grep -v / | head -n 10
